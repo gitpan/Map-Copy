@@ -6,7 +6,7 @@ Map::Copy - copy a scalar/array to another, translating it along the way in a ma
 
 =head1 VERSION
 
-Version 0.001_001
+Version 0.002
 
 =cut
 
@@ -18,7 +18,7 @@ BEGIN {
     @ISA = qw(Exporter);
 }
 
-our $VERSION = '0.001_001';
+our $VERSION = '0.002';
 
 $VERSION = eval $VERSION;
 
@@ -91,10 +91,8 @@ sub cpmap (&@) {
 
 cpmap will be available anywhere you use this module.
 
-WARNING: I reserve the right to change the name of cpmap. This module only has a dev version until we can decide
-if the subroutine name is appropriate. I'm very open to comments. Comment on the RT ticket I'll be opening after
-I upload the module.
-
+WARNING: I reserve the right to change the name of cpmap. I'm very open to comments. Comment
+on the RT ticket I'll be opening after I upload the module.
 
 current candidates for this sub are:
 

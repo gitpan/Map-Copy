@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Map-Copy
-version:            0.001_001
+version:            0.002
 abstract:           copy a scalar/array to another, translating it along the way in a map-ish fashion
 author:
     - Todd E Rinaldo <toddr@cpan.org>
